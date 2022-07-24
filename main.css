@@ -221,3 +221,68 @@ p {
     color: gray;
     margin-bottom: 20px;
 }
+
+/* section seven  */
+.section-seven{
+    margin-bottom: 50px;
+}
+.section-seven-heading{
+    text-align: center;
+}
+.section-seven-heading hr{
+    width: 20px;
+    border-width: 2px;
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}
+.section-seven-heading h1{
+    font-size: 40px;
+}
+.section-seven-company-logo{
+    width: 100%;
+}
+.logo{
+    display: inline-block;
+    width: calc(100% / 5 - 20px);
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.logo img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color:rgba(4, 4, 68, 0.747);
+    /* height: 400px; */
+}
+.footer-content{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-segment{
+    width: calc(100% / 4 - 20px);
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    height: 400px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    
+}
+.footer-segment h1{
+    margin-bottom: 20px;
+}
+.footer-segment i{
+    width: 10%;
+    vertical-align: middle;
+}
+.footer-segment h4{
+    display: inline-block;
+    width: 85%;
+    /* margin-left: 10px; */
+    vertical-align: top;
+
+}
