@@ -184,3 +184,40 @@ p {
 .section-five-icon h3, p{
     margin-top: 20px;
 }
+
+/* section six  */
+.section-six{
+    margin-bottom: 100px;
+    background-image: url(./images/sec-6-banner.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.client-heading{
+    padding-top: 30vh;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.client-comment{
+    width: calc(100% / 2);
+    /* border: 1px solid red; */
+    /* height: 200px; */
+    /* margin-top: 30vh; */
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    background-color: white;
+    padding: 30px 20px;
+}
+.client-comment .fa-quote-left{
+    font-size: 40px;
+}
+.client-comment p{
+    margin-bottom: 30px;
+}
+.client-comment h2,h3{
+    text-transform: uppercase;
+}
+.client-comment h3{
+    color: gray;
+    margin-bottom: 20px;
+}
