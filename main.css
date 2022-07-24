@@ -12,7 +12,10 @@ header {
     /* opacity: 0.7; */
     width: 100%;
     /* height: 100vh; */
+    /* height: 100vh; */
     margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .wrapper {
@@ -24,8 +27,8 @@ header {
 .header-content {
     width: 50%;
     color: rgba(4, 4, 68, 0.747);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
 }
 
 .header-content h1,
@@ -85,4 +88,99 @@ p {
 }
 .common-color{
     color: rgba(4, 4, 68, 0.747);
+}
+
+/* creativity section  */
+.creativity-section{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.creativity-left-segment{
+    display: inline-block;
+    width: calc(100% / 2 - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    height: 400px;
+    vertical-align: middle;
+}
+.creativity-left-segment img{
+    width: 100%;
+}
+.creativity-right-segment{
+    display: inline-block;
+    width: calc(100% / 2 - 20px);
+    /* border: 1px solid green; */
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 20px;
+}
+.creativity-right-segment hr{
+    margin-top: 20px;
+    width: 20px;
+    border-width: 2px;
+    background-color: gray;
+}
+.creativity-button{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+    background-color:rgba(4, 4, 68, 0.747);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+/* fourth section  */
+.fourth-section{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fourth-section hr{
+    width: 20px;
+    border-width: 2px;
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}
+.fourth-section-img img{
+    width: calc(100% / 3);
+    /* display: inline-block; */
+    margin-top: 20px;
+}
+/* section five  */
+.section-five{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.section-five-left-segment{
+    width: calc(100% / 2);
+    border-right: 2px solid rgba(4, 4, 68, 0.747);
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-five-right-segment {
+    width: calc(100% / 2 - 30px);
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid green; */
+}
+.section-five-icon{
+    margin-top: 20px;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+.section-five-icon img{
+    width: 25%;
+}
+.section-five-icon h3, p{
+    margin-top: 20px;
 }
