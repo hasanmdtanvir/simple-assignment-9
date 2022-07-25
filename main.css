@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(/images/banner-img-2.jpg);
+    background-image: url(./images/banner-img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 0.7; */
@@ -188,7 +188,7 @@ p {
 /* section six  */
 .section-six{
     margin-bottom: 100px;
-    background-image: url(/images/section-six.jpg);
+    background-image: url(./images/section-six.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
