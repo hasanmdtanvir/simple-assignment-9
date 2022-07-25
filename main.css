@@ -260,12 +260,12 @@ footer{
     background-color:rgba(4, 4, 68, 0.747);
     /* height: 400px; */
     position: relative;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .footer-content{
     width: 100%;
-    /* padding-top: 50px; */
-    /* padding-bottom: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer-segment{
     width: calc(100% / 4 - 20px);
@@ -274,18 +274,18 @@ footer{
     /* height: 400px; */
     display: inline-block;
     color: white;
-    vertical-align: middle;
+    vertical-align: top;
     
 }
 .footer-details{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     /* padding-bottom: 50px; */
 }
 .footer-segment h1{
     /* margin-top: 50px; */
-    /* margin-bottom: 20px; */
-    position: absolute;
-    top: 30px;
+    margin-bottom: 20px;
+    /* position: absolute; */
+    /* top: 30px; */
 }
 .footer-segment i{
     width: 10%;
