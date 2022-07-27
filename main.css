@@ -97,7 +97,7 @@ p {
     background-color: white;
     padding: 20px 30px;
     border-radius: 20px;
-    box-shadow: rgb(0, 0, 0 / 20%);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.1);
 }
 .header-button:hover{
     background-color:rgba(4, 4, 68, 0.747);
