@@ -97,8 +97,12 @@ p {
     background-color: white;
     padding: 20px 30px;
     border-radius: 20px;
+    box-shadow: rgb(0, 0, 0 / 20%);
 }
-
+.header-button:hover{
+    background-color:rgba(4, 4, 68, 0.747);
+    color: white;
+}
 /* service section  */
 .service {
     width: calc(100% / 3 - 40px);
