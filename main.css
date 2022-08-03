@@ -438,6 +438,7 @@ footer{
     /* height: 400px; */
     position: relative;
     /* padding-bottom: 50px; */
+    margin-bottom: -50px;
 }
 .footer-content{
     width: 100%;
